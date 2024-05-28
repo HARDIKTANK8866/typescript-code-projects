@@ -50,6 +50,7 @@ function fetchUserData(url: string) {
   });
 }
 
+// fetchUserData("https://api.github.com/users");
 fetchUserData("https://api.github.com/users");
 
 formSubmit.addEventListener("submit", async (e) => {
